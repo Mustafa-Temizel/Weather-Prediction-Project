@@ -95,13 +95,6 @@ pipe = Pipeline(steps=[
 
 ## 6. Tahmin ve Değerlendirme
 - Tahmin/gerçek değer grafiği çizildi.
-- Artık (residual) dağılım grafiği ile model hataları incelendi.
-- Tahmin sırasında **eksik özellik sütunları** sorunu yaşandı; bu, eğitimde kullanılan tüm sütunların aynı sırada ve eksiksiz şekilde sağlanmasıyla çözüldü.
-
+- Artık dağılım grafiği ile model hataları incelendi.
 ---
 
-## 7. Sonraki Adımlar
-- Daha geniş veri ile yeniden eğitim
-- Özellik mühendisliğini genişletme
-- Model açıklanabilirliği için SHAP / Feature Importance analizi
-- API entegrasyonu ile canlı tahmin sistemi
