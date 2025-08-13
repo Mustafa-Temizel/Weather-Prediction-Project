@@ -1,7 +1,7 @@
 
 # Weather Prediction Project
 
-Bu proje, geçmiş hava durumu verilerini kullanarak **yağış tahmini** yapan bir makine öğrenmesi sisteminin geliştirilmesini kapsamaktadır.  
+Bu proje,İstanbul'da geçmiş hava durumu verilerini kullanarak **yağış tahmini** yapan bir makine öğrenmesi sisteminin geliştirilmesini kapsamaktadır.  
 Veriler üzerinde ön işleme, özellik mühendisliği, modelleme, model karşılaştırması ve hiperparametre optimizasyonu adımları gerçekleştirilmiştir.
 
 ---
@@ -26,7 +26,7 @@ Veriler üzerinde ön işleme, özellik mühendisliği, modelleme, model karşı
 
 ---
 
-## 2. Özellik Mühendisliği (Feature Engineering)
+## 2.Feature Engineering
 Modelin daha iyi öğrenebilmesi için yeni değişkenler eklendi:
 - **Mevsimsellik**:
   ```python
